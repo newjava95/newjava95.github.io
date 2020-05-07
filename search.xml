@@ -1,57 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>mypic</title>
-    <url>/2020/05/06/mypic/</url>
-    <content><![CDATA[<p><img src="/2020/05/06/mypic/image-20200506192425661.png" alt="image-20200506192425661"></p>
-]]></content>
-      <categories>
-        <category>spring-boot</category>
-      </categories>
-      <tags>
-        <tag>where are you</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>shiro</title>
-    <url>/2020/05/06/shiro/</url>
-    <content><![CDATA[<h3 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h3><h4 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">talk is cheap</span><br></pre></td></tr></table></figure>
+    <title>hexo</title>
+    <url>/2020/05/06/hexo/</url>
+    <content><![CDATA[<h3 id="1-typora基本操作"><a href="#1-typora基本操作" class="headerlink" title="1.typora基本操作"></a>1.typora基本操作</h3><p>代码：<code>ctl shf ~</code></p>
+<p>代码块：<code>ctl shf k</code></p>
+<p>引用：<code>&gt;</code></p>
+<h3 id="2-hexo基本操作"><a href="#2-hexo基本操作" class="headerlink" title="2.hexo基本操作"></a>2.hexo基本操作</h3><ul>
+<li>新建md</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo n name</span><br><span class="line">然后使用typora进行编辑</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>没毛病嗷铁子</li>
-<li><img src="/2020/05/06/shiro/image-20200506195431395.png" alt="image-20200506195431395"></li>
+<li>新建时自动打开typora</li>
 </ul>
-]]></content>
-      <categories>
-        <category>spring</category>
-      </categories>
-      <tags>
-        <tag>安全框架</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Spring-Security</title>
-    <url>/2020/05/06/Spring-Security/</url>
-    <content><![CDATA[<p><img src="/2020/05/06/Spring-Security/image-20200506223202466.png" alt="image-20200506223202466"></p>
-<h1 id="cat"><a href="#cat" class="headerlink" title="cat"></a>cat</h1><h2 id="如果你想要有一只猫"><a href="#如果你想要有一只猫" class="headerlink" title="如果你想要有一只猫"></a>如果你想要有一只猫</h2><h3 id="你最好"><a href="#你最好" class="headerlink" title="你最好"></a>你最好</h3><h4 id="先有一只狗"><a href="#先有一只狗" class="headerlink" title="先有一只狗"></a>先有一只狗</h4><h5 id="为什么？"><a href="#为什么？" class="headerlink" title="为什么？"></a>为什么？</h5><h6 id="其实我也不知道"><a href="#其实我也不知道" class="headerlink" title="其实我也不知道"></a>其实我也不知道</h6><ul>
-<li>但是我还是得说</li>
-</ul>
-<ol>
-<li>奥里给</li>
-<li>我干了兄弟们</li>
-</ol>
-<blockquote>
-<p>如果这都不是爱</p>
-</blockquote>
-<p><code>hello bitch</code></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">好久不见 你还好吗</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">1. 在根目录新建scripts文件夹</span><br><span class="line">2. 新建一个js文件</span><br><span class="line">3. 往js里面添加这段代码</span><br><span class="line"></span><br><span class="line">var spawn &#x3D; require(&#39;child_process&#39;).exec;</span><br><span class="line">&#x2F;&#x2F; Hexo 3 用户复制这段</span><br><span class="line">hexo.on(&#39;new&#39;, function(data)&#123;</span><br><span class="line">  spawn(&#39;start  &quot;C:\Program Files\Typora\Typora.exe&quot; &#39; + data.path);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 
+<ul>
+<li>新建时需要手动补cate</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">scaffolds &gt; post.md中添加上即可</span><br></pre></td></tr></table></figure>
+
+
+
+<ul>
+<li>本地启动</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>上传到hub</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g (generate)</span><br><span class="line">hexo d (deploy)</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="3-技巧"><a href="#3-技巧" class="headerlink" title="3.技巧"></a>3.技巧</h3><ul>
+<li>折叠代码块</li>
+</ul>
+<details>
+  <summary>spring环境</summary>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;dependency&gt;</span><br><span class="line">    	public void hello</span><br><span class="line">		fdsafdas skjfsli !$%^*(^@)</span><br><span class="line">		fasfasj9fsahjf32</span><br><span class="line">		这里一般用来放maven</span><br><span class="line">&lt;&#x2F;dependency&gt;</span><br></pre></td></tr></table></figure>
+</details>
+
+<blockquote>
+<p> 代码显示不出来使用截图展示代码  注意外面不需要再加代码块标签</p>
+</blockquote>
+<p><img src="/2020/05/06/hexo/image-20200506231602050.png" alt="image-20200506231602050"></p>
 ]]></content>
-      <categories>
-        <category>hello</category>
-      </categories>
       <tags>
-        <tag>whatever</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
 </search>
